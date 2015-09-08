@@ -126,93 +126,6 @@ input[type='submit'] {
 }
 
 
-/* Navigation
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.logo {
-  background: transparent url('../images/logo.svg') no-repeat left center;
-  background-size: 100%;
-  display: inline-block;
-  width: 246px;
-  height: 36px;
-  text-indent: -99999px;
-}
-
-.searchTerm {
-  width: 100%
-}
-
-.top-left-nav-links {
-  margin-top: 5px;
-}
-
-.top-right-nav {
-  margin-top: 5px;
-}
-
-
-
-/*  Footer
-________________________________________________________________
-*/
-
-footer {
-  margin-top: 150px;
-  background-color: #eb008b;
-  padding: 10px;
-  height: 150px;
-}
-
-.footer_title {
-  margin-top: 1%;
-}
-
-.social_media_icons {
-  text-align: right;
-}
-
-.social_media_icons>li {
-  text-align: right;
-  margin-left: 0px;
-}
-
-
-@media(max-width: 550px) {
-
-    .footer_title {
-      width: 50%;
-      display: block;
-      text-align: center;
-      margin-right: auto;
-      margin-left: 25%;
-    }
-
-    .social_media_icons {
-      text-align: center;
-      margin-top: 0%;
-    }
-
-    .facebook, .twitter, .google_plus{
-      width: 10%;
-    }
-
-    .bio_footer {
-      margin-top: 265%;
-    }
-
-=======
-  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica" !important;
-}
-
-.btn-home,
-input[type='submit'] {
-  border: 2px solid white;
-  display: inline-block;
-  padding: 10px;
-  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
-
-}
-
 .btn-home a {
   color: #fff;
 }
@@ -236,47 +149,46 @@ input[type='submit'] {
 }
 
 .image-box img {
-    position:relative;
-    top:0;
-    left:0;
-    z-index:1
+  position:relative;
+  top:0;
+  left:0;
+  z-index:1
 }
 
-
 .image-box-text {
-    position:absolute;
-    padding: 5%;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    z-index:2;
-    opacity:0;
-    -webkit-transition: opacity 0.8s ease-in-out;
-    -moz-transition: opacity 0.8s ease-in-out;
-    -o-transition: opacity 0.8s ease-in-out;
-    -ms-transition: opacity 0.8s ease-in-out;
-    transition: opacity 0.8s ease-in-out;
+  position:absolute;
+  padding: 5%;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:2;
+  opacity:0;
+  -webkit-transition: opacity 0.8s ease-in-out;
+  -moz-transition: opacity 0.8s ease-in-out;
+  -o-transition: opacity 0.8s ease-in-out;
+  -ms-transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
 }
 
 .image-box:hover > .image-box-text {
-    opacity:5;
-    width:100%;
-    height:100%; 
-    padding:5%;
-    display:block;
-    background:rgba(255, 255, 255, 0.8)
+  opacity:5;
+  width:100%;
+  height:100%; 
+  padding:5%;
+  display:block;
+  background:rgba(255, 255, 255, 0.8)
 }
 
 .image-box img:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Landing Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .main-title, .main-subtitle {
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
   text-align: center;
 }
 

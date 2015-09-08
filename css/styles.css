@@ -479,7 +479,7 @@ ________________________________________________________________
 footer {
   background-color: black;
   padding: 10px;
-  height: 150px;
+  height: auto;
 }
 
 .footer-content {

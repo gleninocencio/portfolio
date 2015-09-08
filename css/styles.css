@@ -118,7 +118,7 @@ nav {
 
 .btn-home,
 input[type='submit'] {
-  border: 3px #fff;
+  border: 2px solid;
   color: #fff;
   display: inline-block;
   padding: 5px;

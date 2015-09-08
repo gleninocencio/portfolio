@@ -43,6 +43,7 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-family: "Proxima Nova bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
+  font-weight: 300;
 }
 
 h1 {
@@ -190,6 +191,7 @@ input[type='submit'] {
 .main-title, .main-subtitle {
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
   text-align: center;
+  font-weight: 500;
 }
 
 .top-section {
@@ -261,7 +263,7 @@ ul.main-nav-links {
 .ux-ui--description, 
 .print--description, 
 .illustration--description {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .call-to-action--section {

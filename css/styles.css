@@ -185,6 +185,11 @@ input[type='submit'] {
   opacity: 0.8;
 }
 
+ul.main-nav-links {
+  display: inline-block;
+  margin-left: 10%;
+}
+
 /* Landing Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -198,11 +203,6 @@ input[type='submit'] {
   background-color: #e3e3e3;
   height: 300px;
   width: 100%;
-}
-
-ul.main-nav-links {
-  display: inline-block;
-  margin-left: 5%;
 }
 
 .title-header {

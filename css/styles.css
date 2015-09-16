@@ -40,7 +40,6 @@ body {
 p {margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
   font-family: "Proxima Nova bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
   font-weight: 300;
@@ -115,6 +114,7 @@ blockquote {
 
 nav {
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica" !important;
+  text-align: center;
 }
 
 .btn-home,
@@ -138,8 +138,9 @@ input[type='submit'] {
 
 .image-box {
   height: auto;
-  margin-bottom: 4%;
-  margin-top: 5%;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   overflow: hidden;
   position: relative;
   -webkit-transition: opacity 0.8s ease-in-out;
@@ -187,15 +188,14 @@ input[type='submit'] {
 
 ul.main-nav-links {
   display: inline-block;
-  margin-left: 13%;
 }
+
 
 /* Landing Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .main-title, .main-subtitle {
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
-  text-align: center;
   font-weight: 500;
 }
 
@@ -211,7 +211,7 @@ ul.main-nav-links {
 }
 
 .main-subtitle {
-  margin-top: -4%;
+  margin-top: -35px;
 }
 
 .about-section {
@@ -222,9 +222,13 @@ ul.main-nav-links {
 
 .about-content {
   text-align: center;
-  margin-top: 4%;
-  margin-left: 31% !important;  
-  padding: 50px;
+  margin-left: 30% !important;  
+  padding: 60px;
+}
+
+.about-content p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
 }
 
 @media(max-width: 550px){
@@ -257,13 +261,14 @@ ul.main-nav-links {
 .ux-ui--content, 
 .print--content, 
 .illustration--content {
-  margin-top: -4%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .ux-ui--description, 
 .print--description, 
 .illustration--description {
-  margin-top: 8%;
+  padding: 70px;
 }
 
 .call-to-action--section {
@@ -276,20 +281,17 @@ ul.main-nav-links {
   padding: 50px;
 }
 
-.call-to-action--description {
+/*.call-to-action--description {
   margin-top: 10%;
-}
+}*/
 
 .btn--call-to-action {
   border: 2px solid white;
+  color: #fff;
   display: inline-block;
   margin-left: 30%;
   padding: 10px;
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
-}
-
-.btn--call-to-action a {
-  color: #fff;
 }
 
 .btn--call-to-action:hover {

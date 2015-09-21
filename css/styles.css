@@ -136,6 +136,17 @@ input[type='submit'] {
   border-color: #eb008b;
 }
 
+.main-title, .main-subtitle {
+  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
+  font-weight: 500;
+}
+
+.top-section {
+  background-color: #e3e3e3;
+  height: 300px;
+  width: 100%;
+}
+
 .image-box {
   height: auto;
   margin-left: 25px;
@@ -190,20 +201,29 @@ ul.main-nav-links {
   display: inline-block;
 }
 
+@media(max-width: 550px){
+
+  .main-title {
+  font-size: 48px;
+  }
+
+  .main-subtitle {
+    font-size: 24px;
+  }
+
+  .top-section {
+    height: 200px;
+  }
+
+  .image-box {
+  margin-left: 0px;
+  }
+  
+}
+
 
 /* Landing Page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.main-title, .main-subtitle {
-  font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
-  font-weight: 500;
-}
-
-.top-section {
-  background-color: #e3e3e3;
-  height: 300px;
-  width: 100%;
-}
 
 .title-header {
   text-align: center;

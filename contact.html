@@ -56,10 +56,13 @@
             Hi there! Please drop me a line if you want to collaborate. 
           </h4>
         </div>
-        <form class="contact-form row">
+        <p id="signup-success" class="text-success"></p>
+        <p id="signup-error" class="text-danger"></p>
+        <form accept-charset="UTF-8" class="contact-form row" action="https://formkeep.com/f/eccdbc443a54" method="POST">
+          <input type="hidden" name="utf8" value="✓">
           <input id="name"  type="name" placeholder="Your Name">
           <input id="email" type="email" placeholder="Email">
-          <textarea  id="comments" placeholder="Comments"></textarea>
+          <textarea  id="message" type="message" placeholder="Comments"></textarea>
           <input type='submit' class="btn-contact" id="signup-button">
         </form>  
       </div>  

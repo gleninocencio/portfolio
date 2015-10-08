@@ -253,7 +253,6 @@ ul.main-nav-links {
 
 @media(max-width: 550px){
   .about-content {
-    width: 500px !important;
     margin-left: 0% !important;
     padding: 35px;
   }
@@ -366,7 +365,7 @@ ul.main-nav-links {
 
 @media screen and (max-width: 680px) and (orientation:landscape) {
   .about-content {
-    width: 500px;
+    width: 500px !important;
     margin-left: 75px !important;
   }
 

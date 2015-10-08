@@ -363,7 +363,9 @@ ul.main-nav-links {
 
 }
 
-@media(max-width: 640px) {
+
+
+@media(min-width: 640px) {
   .about-content {
     width: 500px !important;
     margin-left: 75px !important;

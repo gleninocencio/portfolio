@@ -368,7 +368,7 @@ ul.main-nav-links {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
   .about-content {
     width: 500px !important;
-    margin-left: 75px !important;
+    margin-left: 60px !important;
   }
 
   .ux-ui-image {

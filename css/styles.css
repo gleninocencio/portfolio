@@ -241,6 +241,7 @@ ul.main-nav-links {
 }
 
 .about-content {
+  width: 500px;
   text-align: center;
   margin-left: 30% !important;  
   padding: 60px;

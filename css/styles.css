@@ -363,7 +363,7 @@ ul.main-nav-links {
 
 }
 
-@media screen and (max-width: 680px) and (orientation:landscape) {
+@media(max-width: 640px) {
   .about-content {
     width: 500px !important;
     margin-left: 75px !important;

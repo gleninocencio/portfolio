@@ -241,7 +241,6 @@ ul.main-nav-links {
 }
 
 .about-content {
-  width: 500px;
   text-align: center;
   margin-left: 30% !important;  
   padding: 60px;
@@ -254,6 +253,7 @@ ul.main-nav-links {
 
 @media(max-width: 550px){
   .about-content {
+    width: 500px !important;
     margin-left: 0% !important;
     padding: 35px;
   }

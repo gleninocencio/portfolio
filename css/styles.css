@@ -385,6 +385,7 @@ ul.main-nav-links {
   .print-image {
     width: 400px !important;
     margin-left: -50px !important;
+    padding-top: 50px !important;
   }
 
   .print--description {

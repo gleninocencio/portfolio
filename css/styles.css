@@ -384,15 +384,18 @@ ul.main-nav-links {
 
   .print-image {
     width: 400px !important;
+    margin-left: -50px !important;
   }
 
   .print--description {
     width: 500px !important;
     padding-left: 0px !important;
+    padding-top: 0px !important;
   }
 
   .illustration-image {
     width: 400px !important;
+    margin-left: -60px !important;
   }
 
   .illustration--description {
@@ -403,6 +406,7 @@ ul.main-nav-links {
 
   .call-to-action--content {
     margin-left: 60px !important;
+    width: 550px !important;
   }
 
   .btn--call-to-action {
@@ -627,10 +631,18 @@ ul.social-media-icons {
   }
    }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
+  .footer-title {
+    width: 176px !important;  
+  }
+
+  ul.social-media-icons {
+    width: 300px !important;
+    margin-left: -60px !important;
+  }
 
 
-
-
+}
 
 
 

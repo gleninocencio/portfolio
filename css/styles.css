@@ -342,10 +342,13 @@ ul.main-nav-links {
 
 @media(max-width: 550px) {
   .ux-ui--description, 
-  .print--description, 
   .illustration--description {
     padding: 20px;
     /*margin-top: -20% !important;*/
+  }
+
+  .print--description {
+    padding: 0px 20px 20px 20px;
 
   }
 

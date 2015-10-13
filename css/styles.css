@@ -491,6 +491,25 @@ ul.main-nav-links {
 
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
+  
+  .jottly--image {
+    width: 500px !important;
+    margin-left: -105px !important;
+  }
+
+  .glen-project--image {
+    width: 500px !important;
+    margin-left: 0px !important;
+  }
+
+  .ux-ui--description {
+    width: 400px !important;
+    margin-left: -60px !important;
+  }
+
+
+}
 
 /*  Print
 ________________________________________________________________

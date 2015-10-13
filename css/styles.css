@@ -503,12 +503,15 @@ ul.main-nav-links {
     margin-left: -115px !important;
   }
 
-  .ux-ui-text {
+  .blocstarter--image {
     width: 400px !important;
     margin-left: -60px !important;
   }
 
-
+  .ux-ui-text {
+    width: 400px !important;
+    margin-left: -60px !important;
+  }
 }
 
 /*  Print

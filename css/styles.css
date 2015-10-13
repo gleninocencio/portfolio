@@ -500,10 +500,10 @@ ul.main-nav-links {
 
   .glen-project--image {
     width: 500px !important;
-    margin-left: 0px !important;
+    margin-left: -115px !important;
   }
 
-  .ux-ui--description {
+  .ux-ui-text {
     width: 400px !important;
     margin-left: -60px !important;
   }

@@ -383,20 +383,20 @@ ul.main-nav-links {
   }
 
   .print-image {
-    width: 400px;
+    width: 400px !important;
   }
 
   .print--description {
-    width: 500px;
+    width: 500px !important;
     padding-left: 0px !important;
   }
 
   .illustration-image {
-    width: 400px;
+    width: 400px !important;
   }
 
   .illustration--description {
-    width: 500px;
+    width: 500px !important;
     padding-top: 0px !important;
     padding-left: 0px !important;
   }
@@ -407,7 +407,7 @@ ul.main-nav-links {
 
   .btn--call-to-action {
     margin-left: 0px !important;
-    width: 110px;
+    width: 110px !important;
   }
 
 

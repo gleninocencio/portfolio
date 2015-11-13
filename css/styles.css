@@ -250,7 +250,7 @@ ul.main-nav-links {
 .about-content {
   text-align: center;
   margin-left: 30% !important;  
-  padding: 60px;
+  padding: 50px;
 }
 
 .about-content p {
@@ -380,6 +380,7 @@ ul.main-nav-links {
 
 
 
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
   .about-content {
     width: 500px !important;
@@ -429,8 +430,6 @@ ul.main-nav-links {
     margin-left: 0px !important;
     width: 110px !important;
   }
-
-
 
 }
 
@@ -563,6 +562,18 @@ ________________________________________________________________
 .image-box-subtitle--illustration {
   margin-left: 5%;
 }  
+
+.title-header-illustration {
+  text-align: center;
+  /*margin-top: 4%;*/
+  padding-top: 50px;
+}
+
+@media(min-width: 550px) {
+  .title-header-illustration {
+    margin-left: 16% !important;
+  }
+}
 
 
 

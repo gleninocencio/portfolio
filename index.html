@@ -24,26 +24,28 @@
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/top-navigation.css">
 
 </head>
 <body>
   <header class="top-section">
     <nav>
-      <ul class="main-nav-links">
-        <li><a href="index.html">Home</a></li> 
-        <li>|</li>
-        <li><a href="ux_ui_page.html">UX/UI Design</a></li>
-        <li>|</li>
-        <li><a href="print.html">Print</a></li>
-        <li>|</li>
-        <li><a href="illustration.html">Illustration</a></li>
-        <li>|</li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>  
+      <div class="responsive_nav">
+        <a href="#" class="mobile-nav-trigger show-mobile"><img src="images/sandwhich.svg"></a>
+      </div>
+      <div class="right_nav">
+        <ul class="main-nav-links">
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="ux_ui_page.html">UX/UI Design</a></li>
+          <li><a href="print.html">Print</a></li>
+          <li><a href="illustration.html">Illustration</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>  
     </nav>
     <div class="row">
       <div class="title-header">
-        <h1 class="main-title">
+        <h1 class="landing-page-title">
           GLEN INOCENCIO
         </h1>
         <h4 class="main-subtitle">Designer/Illustrator
@@ -141,6 +143,8 @@
       </ul>  
     </div>  
    
-  </footer>   
+  </footer> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/mobile-menu.js"></script>  
 </body>
 </html>

@@ -136,7 +136,7 @@ input[type='submit'] {
   border-color: #eb008b;
 }
 
-.main-title, .main-subtitle {
+.landing-page-title, .main-title, .main-subtitle {
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
   font-weight: 500;
 }
@@ -203,8 +203,14 @@ ul.main-nav-links {
 
 @media(max-width: 550px){
 
-  .main-title {
+  .landing-page-title {
   font-size: 48px;
+  padding-top: 100px;
+  }
+
+  .main-title{
+    font-size: 48px;
+    padding-top: 50px;
   }
 
   .main-subtitle {
@@ -227,7 +233,8 @@ ul.main-nav-links {
 
 .title-header {
   text-align: center;
-  margin-top: 4%;
+  /*margin-top: 4%;*/
+  padding-top: 50px;
 }
 
 .main-subtitle {
@@ -252,6 +259,11 @@ ul.main-nav-links {
 }
 
 @media(max-width: 550px){
+
+  .title-header {
+    padding-top: 0px !important;
+  }
+
   .about-content {
     margin-left: 0% !important;
     padding: 35px;

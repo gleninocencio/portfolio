@@ -569,7 +569,7 @@ ________________________________________________________________
   padding-top: 50px;
 }
 
-@media(min-width: 550px) {
+@media(max-width: 550px) {
   .title-header-illustration {
     margin-left: 16% !important;
   }

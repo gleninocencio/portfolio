@@ -571,7 +571,8 @@ ________________________________________________________________
 
 @media(max-width: 550px) {
   .title-header-illustration {
-    margin-left: 16% !important;
+    margin-left: 0% !important;
+    padding-top: 0px !important;
   }
 }
 

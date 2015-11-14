@@ -14,6 +14,7 @@
 - Illustration
 - Contact
 - Footer
+
 */
 
 /* Global Elements
@@ -449,55 +450,65 @@ ul.main-nav-links {
     margin-left: 0px !important;
     width: 110px !important;
   } 
-
-
-
 }
 
-
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  .about-content p {
+    margin-left: -140px !important;
+    width: 500px !important;  
+  }
+}
 
 /*@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
   .about-content {
     width: 500px !important;
     margin-left: 50px !important;
   }
+
   .ux-ui-image {
     width: 400px !important;
     padding-bottom: 25px;
   }
+
   .ux-ui--description {
     padding-top: 0px;
     padding-left: 0px;
     width: 500px !important;
   }
+
   .print-image {
     width: 400px !important;
     margin-left: -50px !important;
     padding-top: 50px !important;
   }
+
   .print--description {
     width: 500px !important;
     padding-left: 0px !important;
     padding-top: 0px !important;
   }
+
   .illustration-image {
     width: 400px !important;
     margin-left: -60px !important;
   }
+
   .illustration--description {
     width: 500px !important;
     padding-top: 0px !important;
     padding-left: 0px !important;
   }
+
   .call-to-action--content {
     margin-left: 60px !important;
     width: 550px !important;
   }
+
   .btn--call-to-action {
     margin-left: 0px !important;
     width: 110px !important;
   }
+
 }*/
 
 /* UX/UI Design
@@ -592,6 +603,23 @@ ul.main-nav-links {
   }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
+  .jottly--content, .glen-project--content, .blocstarter--content {
+    padding-left: 75px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  .jottly--image, .glen-project--image, .blocstarter--image, .ux-ui-text {
+    width: 500px !important;
+    margin-left: -90px !important;
+  }
+
+
+ }
+
+
+
 /*  Print
 ________________________________________________________________
 */
@@ -653,6 +681,17 @@ ________________________________________________________________
   }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  .title-header-illustration {
+    margin-left: 26% !important;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  .main-title-illustration {
+    margin-left: -35px;
+  }
+
+}  
 
 
 
@@ -728,7 +767,7 @@ textarea:active {
 
 /*  Footer
 ________________________________________________________________
-*/
+
 
 footer {
   background-color: black;
@@ -759,7 +798,7 @@ ul.social-media-icons {
   .footer-content {
     margin-left: 0% !important;
   }
-   }
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
   .footer-title {
@@ -773,3 +812,17 @@ ul.social-media-icons {
 
 
 }
+
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+  .footer-title {
+    margin-left: -11px;
+  } 
+
+  .social-media-icons {
+    width: 275px;
+    margin-left: -60px;
+  }
+
+ }*/
+
+

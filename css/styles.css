@@ -642,7 +642,7 @@ ________________________________________________________________
 
 .title-header-illustration {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3%;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {

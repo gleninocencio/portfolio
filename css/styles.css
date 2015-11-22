@@ -36,7 +36,9 @@ body {
   color: #222;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  margin-bottom: 1.3em;
+}
 
 h1, h2, h3, h4 {
   font-family: "Proxima Nova bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -327,11 +329,12 @@ ul.main-nav-links {
   padding-bottom: 50px;
   padding-left: 50px;
 }
+
 .call-to-action--section {
   background-color: #cac8c8;
   /*height: 400px;*/
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .call-to-action--content {
@@ -369,13 +372,14 @@ ul.main-nav-links {
 
   .call-to-action--section {
   background-color: #cac8c8;
-  /*height: 400px;*/
   width: 100%;
   text-align: left;
+
 }
 
-   .call-to-action--content {
+  .call-to-action--content {
     padding: 25px;
+    text-align: left;
   }
 
    .btn--call-to-action {
@@ -745,7 +749,7 @@ footer {
 
 .footer-content {
   margin-top: 3%;
-  margin-left: 40% !important;
+  margin-left: 39% !important;
   text-align: center;
 }
 

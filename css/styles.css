@@ -249,7 +249,7 @@ ul.main-nav-links {
 }
 
 .about-content {
-  text-align: center;
+  text-align: left;
   margin-left: 30% !important;  
   padding: 50px;
 }
@@ -540,6 +540,10 @@ ul.main-nav-links {
 
 .ux-ui--links:hover span {
   left: 10px;
+}
+
+.ux-ui--copy {
+  text-align: left;
 }
 
 .glen-project--image {

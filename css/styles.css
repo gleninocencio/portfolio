@@ -41,7 +41,7 @@ p {margin-bottom: 1.3em;}
 h1, h2, h3, h4 {
   font-family: "Proxima Nova bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1 {
@@ -331,6 +331,7 @@ ul.main-nav-links {
   background-color: #cac8c8;
   /*height: 400px;*/
   width: 100%;
+  text-align: center;
 }
 
 .call-to-action--content {
@@ -342,7 +343,6 @@ ul.main-nav-links {
   border: 2px solid white;
   color: #fff;
   display: inline-block;
-  margin-left: 30%;
   padding: 10px;
   font-family: "Proxima Nova", "HelveticaNeue", "Helvetica";
 }
@@ -366,6 +366,13 @@ ul.main-nav-links {
   .ux-ui-image {
     padding-bottom: 0px;
   }
+
+  .call-to-action--section {
+  background-color: #cac8c8;
+  /*height: 400px;*/
+  width: 100%;
+  text-align: left;
+}
 
    .call-to-action--content {
     padding: 25px;
@@ -639,7 +646,7 @@ ________________________________________________________________
 
   }
 
-@media (max-width: 550px) {
+@media (max-width: 550px) {   
   .main-title-illustration {
     font-size: 48px;
     padding-top: 50px;

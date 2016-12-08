@@ -1,0 +1,217 @@
+@media all and (max-width:800px) {
+
+	/*  Global Elements
+________________________________________________________________
+*/	
+
+		.main-nav-links a {
+			font-size: 14px;
+		}
+
+		.main-title {
+			font-size: 36px;
+		}
+
+		.sub-header {
+			font-size: 21px;
+		}
+
+		.top-section {
+			height: 350px;
+		}
+
+		.main-content {
+			margin-top: -50px;
+		}
+
+		.header h4 {
+			font-size: 24px;
+		}
+
+		.red-box {
+			width: 65px;
+		}
+
+		.about-content {
+			padding-top: 0px;
+		}
+
+		.about-text {
+			width: 300px;
+			/*text-align: center;*/
+		}
+
+/*  Home
+________________________________________________________________
+*/	
+		.screens {
+			padding-top: 0px;
+		}
+
+
+
+
+/*  CVS
+________________________________________________________________
+*/	
+
+		.hero-section {
+			height: auto;
+
+		}
+
+		.early-sketches-section, .user-flow-section, .screens-section, .cvs-prototype-section {
+		  text-align: center;
+		  padding-top: 0px;
+		}
+
+		.early-sketches-section img, .cvs-screens img {
+			display: block;
+			margin-left: auto;
+    		margin-right: auto;
+		}
+
+		.user-flow-section img {
+			width: 100%;
+		}
+
+		.cvs-invision-prototype p {
+	    font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+	    }
+
+	    .cvs-prototype-section iframe {
+	    	transform: scale(0.6);
+	    	margin-left: -25px;
+	    	margin-top: -200px;
+	    }
+
+	    .cvs-invision-prototype {
+	    	padding-bottom: 0px;
+	    }
+
+
+/*  Hungry
+________________________________________________________________
+*/	
+
+
+		.hungry-hero-section {
+			height: auto;
+		}
+
+		.early-sketches-hungry img, .hungry-screens img {
+			display: block;
+			margin-left: auto;
+    		margin-right: auto;
+		}
+
+		.hungry-prototype-section {
+			padding-top: 0px;
+		}
+
+		.hungry-invision-prototype p {
+	    font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+	    }
+
+	    .hungry-prototype-section iframe {
+	    	transform: scale(0.6);
+	    	margin-left: -25px;
+	    	margin-top: -200px;
+	    }
+
+	    .hungry-invision-prototype {
+	    	padding-bottom: 0px;
+	    }
+
+
+/*  Gingado
+________________________________________________________________
+*/	
+
+
+		.gingado-hero-section {
+			height: auto;
+		}
+
+		.early-sketches-gingado img, .gingado-screens img {
+			display: block;
+			margin-left: auto;
+    		margin-right: auto;
+    		width: 80%;
+		}
+
+		.site-map-section {
+			padding-top: 0px;
+		}
+
+		.site-map-section img {
+			width: 100%;
+		}
+
+		.gingado-website-section {
+			padding-top: 0px;
+		}
+
+		.gingado-website p {
+	    font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-size: 14px;
+	    }
+
+	    .gingado-website img {
+	    	width: 100%
+	    }
+
+/*  Trainspotting
+________________________________________________________________
+*/	
+
+		.trainspotting-hero-section {
+			height: auto;
+		}
+
+
+		.trainspotting-artwork-section {
+		    text-align: center;
+		    padding-top: 50px;
+		    padding-bottom: 50px;
+		}    
+
+
+		.trainspotting-artwork-section img {
+		   display: block;
+		   margin-left: auto;
+		   margin-right: auto;
+		   padding-top: 16px;
+
+		}  
+
+
+
+/*  Posters
+________________________________________________________________
+*/	
+
+
+		.posters-section img {
+			display: block;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+/*  About
+________________________________________________________________
+*/	
+
+		.about-txt {
+			width: auto;
+		}
+
+
+
+
+
+
+}

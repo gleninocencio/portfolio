@@ -167,10 +167,34 @@ blockquote {
   width: 500px;
 }
 
+
 nav {
    background-color: #ED145B;
 }
 
+.btn {
+    text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+.btn:hover {
+  border: 1px solid #ED145B;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
+}
+
+li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 8px;
+}
 
 
 

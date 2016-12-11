@@ -42,7 +42,7 @@ ________________________________________________________________
 		}
 
 		.about-header h4 {
-			font-size: 36px;
+			font-size: 36px !important;
 		}
 
 		.detail-header h4 {

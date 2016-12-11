@@ -184,9 +184,16 @@ nav {
 }
 
 .btn:hover {
-  border: 1px solid #ED145B;
+  /*border: 1px solid #ED145B;*/
+  color: #FFFFFF !important;
+  box-shadow:0 0 5px #FFFFFF;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
+
+}
+
+.about-links a {
+  color: #FFFFFF;
 
 }
 
@@ -194,11 +201,14 @@ li {
     display: inline-block;
     padding-top: 15px;
     padding-right: 8px;
+    color: #FFFFFF;
 }
 
 .about-links  {
   text-align: center;
 }
+
+
 
 
 
@@ -337,14 +347,7 @@ ________________________________________________________________
   font-weight: 700px; 
 }
 
-.about-links a {
-  color: #FFFFFF;
 
-}
-
-.about-links a:hover {
-  color: #ED145B !important;
-}
 
 .detail-header {
   padding-top: 50px;

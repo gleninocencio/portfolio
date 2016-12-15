@@ -562,6 +562,29 @@ ________________________________________________________________
 */
 
 
+.about-resume {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn-resume {
+  text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.btn-resume:hover {
+  color: #ED145B !important;
+  border: 1px solid #ED145B;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
+}
+
 .resume-header h4 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;

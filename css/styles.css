@@ -192,6 +192,8 @@ nav {
 
 .about-links a {
   color: #FFFFFF;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 
 }
 

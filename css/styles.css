@@ -161,7 +161,7 @@ blockquote {
 
 .about-text {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 500px;
 }
@@ -344,6 +344,7 @@ ________________________________________________________________
   margin-left: auto;
   margin-right: auto;
   padding-top: 16px;
+  font-size: 18px;
 }
 
 .about-links {
@@ -385,7 +386,7 @@ ________________________________________________________________
 
 .cvs-invision-prototype p {
     font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 21px;
+    font-size: 18px;
 
 
 }
@@ -414,6 +415,10 @@ ________________________________________________________________
 .hungry-invision-prototype {
   padding-top: 16px;
   padding-bottom: 100px;
+}
+
+.hungry-invision-prototype p {
+  font-size: 18px;
 }
 
 .hungry-prototype-section {

@@ -55,8 +55,12 @@ ________________________________________________________________
 /*  Home
 ________________________________________________________________
 */	
+		.top-header {
+			padding-bottom: 16px !important;
+		}
+
 		.screens {
-			padding-top: 0px;
+			padding-top: 0px !important;
 		}
 
 

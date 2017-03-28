@@ -1,0 +1,675 @@
+*
+* Portfolio 
+* Copyright 2016, Glen Inocencio
+* 1/1/2016
+*
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Global Elements
+- Top Navigation  
+- Home
+- CVS Tracking App
+- Hungry Now
+- Gingado Capoeira
+- Trainspotting
+- Posters
+- Illustrations
+- About
+- Footer
+*/
+
+/* Global Elements
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+html {
+  overflow-x: hidden;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;
+  
+}
+
+h4 {font-size: 1.414em;}
+
+ul, li {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block; 
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #FFFFFF !important;
+  
+}
+
+.main-nav-links a:hover {
+  border-bottom: 5px solid #fff;
+   -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+}
+
+.logo {
+  border-bottom: none !important;
+}
+
+blockquote {
+  font-size: 21px;
+}
+   
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.red-box {
+  width: 85px;
+  height: 5px;
+  background-color: #ED145B;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+}
+
+.header h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about-header h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+
+.about-text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 500px;
+}
+
+
+nav {
+   background-color: #ED145B;
+   padding: 16px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+.btn:hover {
+  /*border: 1px solid #ED145B;*/
+  color: #FFFFFF !important;
+  box-shadow:0 0 5px #FFFFFF;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
+}
+
+.about-links a {
+  color: #FFFFFF;
+}
+
+li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 8px;
+    color: #FFFFFF;
+}
+
+.about-links  {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*  Top Navigation
+________________________________________________________________
+*/
+
+.logo {
+  padding: 10px;
+}
+
+.right_nav {
+  float: right;
+}
+
+.right_nav ul {
+  padding: 15px;
+}
+
+.main-nav-links li {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.top-header {
+  padding-bottom: 16px;
+}
+
+.top-section {
+  background-color: #ED145B;
+  width: 100%;
+  height: 100%;
+  /*height: 400px;*/
+
+}
+
+.top-section-main {
+  background-color: #ED145B;
+  height: 100%;
+}
+
+
+
+.main-title {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.sub-header {
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.about-content {
+  padding-top: 100px;
+}
+
+
+/*  Home 
+________________________________________________________________
+*/
+
+.home--section {
+  padding-bottom: 100px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+.home-screens {
+  text-align: center;
+  padding-top: 16px;
+}
+
+.home-screens img {
+  padding-left: 16px;
+}
+
+.my-work-screens {
+  width: 300px;
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.screens {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 16px;
+}
+
+.overlay h3 {
+  font-size: 24px;
+  font-weight: 700px;
+  color: #FFFFFF;
+  padding: 25px 10px 0 10px;
+  letter-spacing: 1px;
+}
+
+/*  CVS
+________________________________________________________________
+*/
+
+  .hero-section {
+  background:  url("../images/cvs-hero.png") no-repeat;
+  height: 715px;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  
+}
+
+.about-text {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.about-links {
+  font-weight: 700px; 
+}
+
+
+
+.detail-header {
+  padding-top: 50px;
+}
+
+.detail-header h4{
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.early-sketches-section, .user-flow-section, .screens-section, .cvs-prototype-section {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.early-sketches-cvs img, .cvs-screens img {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.cvs-user-flow {
+  padding-top: 16px;
+}
+
+
+.cvs-invision-prototype {
+  padding-top: 16px;
+  padding-bottom: 100px;
+}
+
+.cvs-invision-prototype p {
+    font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
+
+}
+
+/*  Hungry Now
+________________________________________________________________
+*/
+
+.hungry-hero-section {
+  background:  url("../images/hungry-hero.png") no-repeat;
+  height: 715px;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+
+}
+
+.early-sketches-hungry img, .hungry-screens img {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.hungry-invision-prototype {
+  padding-top: 16px;
+  padding-bottom: 100px;
+}
+
+.hungry-invision-prototype p {
+  font-size: 18px;
+}
+
+.hungry-prototype-section {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/*  Gingado
+________________________________________________________________
+*/
+
+.gingado-hero-section {
+  background:  url("../images/gingado-hero.png") no-repeat;
+  height: 715px;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+
+}
+
+.early-sketches-gingado img, .gingado-screens img {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.site-map-section {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.gingado-site-map {
+  padding-top: 16px;
+}
+
+.gingado-website-section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.gingado-website p a:hover {
+  color: #ED145B !important;
+}
+
+/*  Trainspotting
+________________________________________________________________
+*/
+
+.trainspotting-hero-section {
+  background:  url("../images/trainspotting-hero.png") no-repeat;
+  height: 715px;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+
+}
+
+.trainspotting-artwork-section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.trainspotting-artwork-section img {
+  padding-left: 16px;
+}
+
+
+
+/*  Posters
+________________________________________________________________
+*/
+
+.posters-section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.posters-section img {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.posters > div {
+  display: inline-block;
+}
+
+.poster-header h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  padding-top: 16px;
+  text-transform: uppercase;
+}
+
+/*  Illustrations
+________________________________________________________________
+*/
+
+.illustrations-section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.illustrations-header i {
+  font-size: 14px;
+}
+
+.illustrations-header h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  padding-top: 16px;
+  text-transform: uppercase;
+}
+
+.illustration-text {
+  font-size: 14px;
+}
+
+.illustrations-section img {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.illustrations > div {
+  display: inline-block;
+}
+
+
+/*  About
+________________________________________________________________
+*/
+
+
+.about-resume {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn-resume {
+  text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.btn-resume:hover {
+  color: #ED145B !important;
+  border: 1px solid #ED145B;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
+}
+
+.resume-header h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  padding-top: 16px;
+  text-transform: uppercase;
+}
+
+.about-txt {
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/*  Footer
+________________________________________________________________
+*/
+
+footer {
+  background-color: #ED145B;
+  padding: 10px;
+  height: auto;
+
+}
+
+.footer-content {
+  margin-top: 3%;
+ 
+  text-align: center;
+}
+
+.footer-title {
+ font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color: #fff;
+}
+
+.footer-title a {
+  color: #ffffff !important;
+}
+
+ul.social-media-icons {
+  display: inline-block;
+}
+
+.social-media-icon {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

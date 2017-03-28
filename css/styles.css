@@ -1,7 +1,7 @@
 *
 * Portfolio 
 * Copyright 2016, Glen Inocencio
-* 1/1/2016
+* 12/1/2016
 *
 
 
@@ -288,11 +288,9 @@ ________________________________________________________________
 .home--section {
   padding-bottom: 100px;
   text-align: center;
+  padding-top: 5px;
 }
 
-.home--section h4 {
-  font-size: 24px;
-}
 
 .home-screens {
   text-align: center;

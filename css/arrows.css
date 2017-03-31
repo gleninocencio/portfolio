@@ -231,7 +231,7 @@
 	transform: translateY(-50%);
 }
 
-.nav-thumbflip a {
+.nav-thumbflip-secondary a {
 	position: absolute;
 	top: 5%;
 	display: block;

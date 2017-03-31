@@ -231,9 +231,9 @@
 	transform: translateY(-50%);
 }
 
-.nav-thumbflip-secondary a {
+	.nav-thumbflip-secondary a {
 	position: absolute;
-	top: 5%;
+	top: 5% !important;
 	display: block;
 	outline: none;
 	text-align: left;

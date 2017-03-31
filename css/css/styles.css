@@ -1,7 +1,7 @@
 *
 * Portfolio 
 * Copyright 2016, Glen Inocencio
-* 1/1/2016
+* 12/1/2016
 *
 
 
@@ -9,17 +9,14 @@
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Global Elements
 - Top Navigation  
-- Landing Page
-- About 
-- History
-- Instructors
-- Programs
-- Adult Class
-- Youth Expressions
-- Summer Camp
-- Class Schedule
-- Locations
-- Contact
+- Home
+- CVS Tracking App
+- Hungry Now
+- Gingado Capoeira
+- Trainspotting
+- Posters
+- Illustrations
+- About
 - Footer
 */
 
@@ -86,10 +83,12 @@ a:hover {
 
 .main-nav-links a:hover {
   border-bottom: 5px solid #fff;
+   -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
 }
 
 .logo {
-  border-bottom: none; !important;
+  border-bottom: none !important;
 }
 
 blockquote {
@@ -162,7 +161,7 @@ blockquote {
 
 .about-text {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 500px;
 }
@@ -170,6 +169,7 @@ blockquote {
 
 nav {
    background-color: #ED145B;
+   padding: 16px;
 }
 
 .btn {
@@ -184,21 +184,30 @@ nav {
 }
 
 .btn:hover {
-  border: 1px solid #ED145B;
+  /*border: 1px solid #ED145B;*/
+  color: #FFFFFF !important;
+  box-shadow:0 0 5px #FFFFFF;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
 
+}
+
+.about-links a {
+  color: #FFFFFF;
 }
 
 li {
     display: inline-block;
     padding-top: 15px;
     padding-right: 8px;
+    color: #FFFFFF;
 }
 
 .about-links  {
   text-align: center;
 }
+
+
 
 
 
@@ -217,7 +226,7 @@ ________________________________________________________________
 }
 
 .right_nav ul {
-  padding: 15px;
+  padding: 10px;
 }
 
 .main-nav-links li {
@@ -229,17 +238,20 @@ ________________________________________________________________
 
 }
 
-.top-section, {
+.top-header {
+  padding-bottom: 16px;
+}
+
+.top-section {
   background-color: #ED145B;
   width: 100%;
-  height: 100%;
-  /*height: 400px;*/
+  
 
 }
 
 .top-section-main {
   background-color: #ED145B;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 
@@ -250,8 +262,8 @@ ________________________________________________________________
   font-size: 48px;
   letter-spacing: 3px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
 }
 
 
@@ -275,11 +287,9 @@ ________________________________________________________________
 .home--section {
   padding-bottom: 100px;
   text-align: center;
+  padding-top: 5px;
 }
 
-.home--section h4 {
-  font-size: 24px;
-}
 
 .home-screens {
   text-align: center;
@@ -315,7 +325,7 @@ ________________________________________________________________
 ________________________________________________________________
 */
 
-  .hero-section {
+  .cvs-hero-section {
   background:  url("../images/cvs-hero.png") no-repeat;
   height: 715px;
   background-position: center;
@@ -331,20 +341,14 @@ ________________________________________________________________
   margin-left: auto;
   margin-right: auto;
   padding-top: 16px;
+  font-size: 18px;
 }
 
 .about-links {
   font-weight: 700px; 
 }
 
-.about-links a {
-  color: #FFFFFF;
 
-}
-
-.about-links a:hover {
-  color: #ED145B !important;
-}
 
 .detail-header {
   padding-top: 50px;
@@ -379,7 +383,7 @@ ________________________________________________________________
 
 .cvs-invision-prototype p {
     font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 21px;
+    font-size: 18px;
 
 
 }
@@ -408,6 +412,10 @@ ________________________________________________________________
 .hungry-invision-prototype {
   padding-top: 16px;
   padding-bottom: 100px;
+}
+
+.hungry-invision-prototype p {
+  font-size: 18px;
 }
 
 .hungry-prototype-section {
@@ -559,6 +567,29 @@ ________________________________________________________________
 */
 
 
+.about-resume {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn-resume {
+  text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.btn-resume:hover {
+  color: #ED145B !important;
+  border: 1px solid #ED145B;
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
+}
+
 .resume-header h4 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -579,6 +610,7 @@ ________________________________________________________________
 
 .about-section {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -602,6 +634,10 @@ footer {
 .footer-title {
  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
  color: #fff;
+}
+
+.footer-title a {
+  color: #ffffff !important;
 }
 
 ul.social-media-icons {

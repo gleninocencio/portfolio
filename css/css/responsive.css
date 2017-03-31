@@ -39,6 +39,7 @@ ________________________________________________________________
 
 		.about-text {
 			width: 300px;
+			font-size: 14px;
 			/*text-align: center;*/
 		}
 
@@ -55,18 +56,24 @@ ________________________________________________________________
 /*  Home
 ________________________________________________________________
 */	
-		.screens {
-			padding-top: 0px;
+		.top-header {
+			padding-bottom: 16px !important;
 		}
 
+		.screens {
+			padding-top: 0px !important;
+		}
 
+		.home--section {
+			padding-top: 75px !important;
+		}
 
 
 /*  CVS
 ________________________________________________________________
 */	
 
-		.hero-section {
+		.cvs-hero-section {
 			height: auto;
 
 		}
@@ -207,9 +214,13 @@ ________________________________________________________________
 
 		.posters-section img {
 			display: block;
-			width: 80%;
+			/*width: 80%;*/
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		.malcolm-x img, .jimi-hendrix img, .took-over img, .fran-8 img {
+			width: 80%;
 		}
 
 
@@ -232,7 +243,7 @@ ________________________________________________________________
 
 		.about-txt {
 			width: auto;
-			padding: 16px;
+			/*padding: 16px;*/
 		}
 
 

@@ -219,6 +219,36 @@
 /*--------------------------------------*/
 
 @media screen and (max-width: 520px) {
+
+	.nav-thumbflip a {
+	position: absolute;
+	top: 10%;
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+	.nav-thumbflip .icon-wrap {
+	display: block;
+	width: 45px;
+	height: 50px;
+	background-color: #ED145B;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
+.nav-thumbflip-secondary .icon-wrap {
+	display: block;
+	width: 45px;
+	height: 50px;
+	background-color: #ED145B;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
 	.nav-slide a.prev,
 	.nav-reveal a.prev,
 	.nav-doubleflip a.prev,

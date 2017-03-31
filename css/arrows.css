@@ -231,6 +231,17 @@
 	transform: translateY(-50%);
 }
 
+.nav-thumbflip a {
+	position: absolute;
+	top: 5%;
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 	.nav-thumbflip .icon-wrap {
 	display: block;
 	width: 45px;

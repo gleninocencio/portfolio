@@ -5,15 +5,15 @@ ________________________________________________________________
 */	
 
 		.main-nav-links a {
-			font-size: 14px;
+			font-size: 16px;
 		}
 
 		.main-title {
-			font-size: 36px;
+			font-size: 18px;
 		}
 
 		.sub-header {
-			font-size: 21px;
+			font-size: 16px;
 		}
 
 		.top-section {
@@ -21,16 +21,24 @@ ________________________________________________________________
 			background-color: #ED145B;
 		}
 
+		.name a {
+			font-size: 16px;
+			padding-top: 0px !important;
+		}
+
+		.right_nav {
+			margin-top: -20px;
+		}
 		.main-content {
 			margin-top: -50px;
 		}
 
-		.header h4 {
-			font-size: 24px;
+		.about-header {
+			font-size: 18px;
 		}
 
 		.red-box {
-			width: 65px;
+			width: 50px;
 		}
 
 		.about-content {
@@ -64,14 +72,20 @@ ________________________________________________________________
 			padding-top: 0px !important;
 		}
 
+		.home--section {
+			padding-top: 75px !important;
+		}
 
+		.main-title {
+			padding-bottom: 25px;
+		}
 
 
 /*  CVS
 ________________________________________________________________
 */	
 
-		.hero-section {
+		.cvs-hero-section {
 			height: auto;
 
 		}
@@ -212,9 +226,14 @@ ________________________________________________________________
 
 		.posters-section img {
 			display: block;
-			width: 80%;
+			/*width: 80%;*/
 			margin-left: auto;
 			margin-right: auto;
+			padding-left: 0px !important;
+		}
+
+		.malcolm-x img, .jimi-hendrix img, .took-over img, .fran-8 img {
+			width: 80%;
 		}
 
 
@@ -237,7 +256,7 @@ ________________________________________________________________
 
 		.about-txt {
 			width: auto;
-			padding: 16px;
+			/*padding: 16px;*/
 		}
 
 

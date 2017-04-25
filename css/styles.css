@@ -391,6 +391,100 @@ ________________________________________________________________
 }
 
 
+/*  Walk Spot
+________________________________________________________________
+*/
+
+
+.walk-spot-section {
+  background:  url("../images/dog-walk-hero.png") no-repeat;
+  height: 715px;
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover
+  -o-background-size: cover; 
+  
+}
+
+.early-sketches-dog-walk img, .dog-walk-screens img {
+  margin-left: 16px;
+  margin-top: 16px;
+  border: 1px solid #000000;
+
+
+}
+
+.early-sketches-dog-walk-big img, .dog-walk-screens img {
+  margin-left: 16px;
+  margin-top: 16px;
+  border: 1px solid #000000;
+
+
+}
+
+.user-story-dog-walk-small, .user-story-dog-walk-medium, .user-story-dog-walk-large {
+  display: inline-block;
+  padding-top: 25px;
+}
+
+
+
+.user-story-dog-walk-small  img {
+  overflow: hidden;
+  margin-right: 5px;
+  margin-left: 11px;
+  width: 275px;
+  border: 1px solid #000000;
+
+  
+}
+
+.user-story-dog-walk-medium img {
+  margin-right: 5px;
+  margin-left: 12px;
+  width: 420px;
+  border: 1px solid #000000;
+
+}
+
+.user-story-dog-walk-large img {
+  width: 855px;
+  margin-left: 15px;
+  border: 1px solid #000000;
+}
+
+.dog-text {
+  width: 275px;
+  text-align: left !important;
+  margin-left: 10px;
+}
+
+.dog-text-medium {
+  width: 400px;
+  text-align: left !important;
+  margin-left: 13px;
+}
+
+.dog-text-large {
+  width: 700px;
+  text-align: left !important;
+  margin-left: 13px;
+}
+
+
+.user-story-section {
+
+}
+
+.user-story-dog-walk {
+
+}
+
+
+
+
 
 /*  CVS
 ________________________________________________________________
@@ -459,12 +553,12 @@ ________________________________________________________________
   padding-bottom: 100px;
 }
 
-.cvs-invision-prototype p {
+/*.cvs-invision-prototype p {
     font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
 
 
-}
+}*/
 
 /*  Hungry Now
 ________________________________________________________________

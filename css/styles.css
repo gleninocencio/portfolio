@@ -223,6 +223,7 @@ li {
 
 
 
+
 /*  Top Navigation
 ________________________________________________________________
 */
@@ -394,9 +395,27 @@ ________________________________________________________________
 
 }
 
-.overlay-title {
+.overlay-title-2 {
+  font-size: 21px;
+  font-weight: 500px;
+  color: #FFFFFF;
+  
+  letter-spacing: 1px;
+ 
+  text-align: center;
+ 
   padding-bottom: 10px;
 }
+
+.overlay-title {
+  
+}
+
+.overlay .subheader {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
 
 
 /*  Walk Spot
@@ -543,12 +562,13 @@ ________________________________________________________________
 
 .early-sketches-section, .user-flow-section, .screens-section, .cvs-prototype-section {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 25px;
 }
 
 .early-sketches-cvs img, .cvs-screens img {
-  padding-left: 16px;
-  padding-top: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+  border: 1px solid #000000;
 }
 
 .cvs-user-flow {

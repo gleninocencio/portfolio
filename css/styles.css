@@ -553,12 +553,7 @@ ________________________________________________________________
   padding-bottom: 100px;
 }
 
-/*.cvs-invision-prototype p {
-    font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
 
-
-}*/
 
 /*  Hungry Now
 ________________________________________________________________
@@ -747,21 +742,18 @@ ________________________________________________________________
 .btn-resume {
   text-transform: uppercase;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000000;
-    border: 1px solid #000000;
-    background-color: transparent;
+    background-color: #ED145B;
     font-size: 14px;
     padding: 10px;
     letter-spacing: 1px;
 }
 
 .btn-resume:hover {
-  color: #ED145B !important;
-  border: 1px solid #ED145B;
+  box-shadow:0 0 5px #000000;
   -webkit-transition:all .2s ease-in-out;
   transition:all .2s ease-in-out;
-
 }
+
 .resume-header  {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
